@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"strconv"
 )
 
 func main() {
@@ -13,6 +12,6 @@ func main() {
 		if number%2 == 0 {
 			nt = "even"
 		}
-		fmt.Println(strconv.Itoa(number) + " is " + nt)
+		fmt.Println(number, " is "+nt)
 	}
 }
